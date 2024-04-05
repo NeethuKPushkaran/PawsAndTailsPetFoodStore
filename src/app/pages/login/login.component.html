@@ -1,0 +1,60 @@
+<section class="vh-600" style="background-color: #d19b9b;">
+    <div class="container py-5 h-100">
+      <div class="row d-flex justify-content-center align-items-center h-100">
+        <div class="col-xl-10">
+          <div class="card rounded-3 text-black" style="background-color: rgb(174, 8, 102);">
+            <div class="row g-0">
+              <div class="col-lg-6">
+                <div class="card-body p-md-5 mx-md-4">
+  
+                  <div class="text-center">
+                    <img src="../../../assets/Images/icon.png"
+                      style="width: 185px;" alt="logo">
+                    
+                    <h4 class="mt-1 mb-5 mt-5 pb-1">We are The Paws&Tails Team</h4>
+                
+                  </div>
+  
+                  <form (ngSubmit)="onSubmit()">
+                    <p>Please login to your account</p>
+  
+                    <div class="form-outline mb-4">
+                      <input type="email" id="username" class="form-control"
+                        placeholder="Enter Your E-Mail ID" name="username" [(ngModel)]="username" required/>
+                      <label class="form-label" for="username">Username</label>
+                    </div>
+  
+                    <div class="form-outline mb-4">
+                      <input type="password" id="password" class="form-control" placeholder="Enter Password" name="password" [(ngModel)]="password" required/>
+                      <label class="form-label" for="password">Password</label>
+                    </div>
+  
+                    <div class="text-center pt-1 mb-5 pb-1">
+                      <button class="btn btn-primary btn-block fa-lg gradient-custom-2 mb-3" type="submit" routerLink="/log-in">Log
+                        in</button>
+                      <a href="#!">Forgot password?</a>
+                    </div>
+  
+                    <div class="d-flex align-items-center justify-content-center pb-4">
+                      <p class="mb-0 me-2">Don't have an account?</p>
+                      <button type="button" routerLink="/sign-up" class="btn btn-outline-primary">Create new</button>
+                    </div>
+  
+                  </form>
+  
+                </div>
+              </div>
+              <div class="col-lg-6 d-flex align-items-center gradient-custom-2">
+                <div class="text-center px-3 py-4 p-md-5 mx-md-4">
+                    <img src="../../../assets/Images/home1.jpeg" alt="" width="310px">
+                    <br><br>
+                  <h4 class="mb-4"><strong>We are more than just a company</strong></h4>
+                  <p><strong><i>it's a community of pet enthusiasts who share a common goal – the well-being of our four-legged friends. We invite you to meet the faces behind the brand, explore our philanthropic initiatives, and join us in making a positive impact on the lives of pets in need.</i></strong></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>

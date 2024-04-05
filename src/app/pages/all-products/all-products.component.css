@@ -1,0 +1,138 @@
+
+ body{
+
+	background-color: #ee9090;
+	font-family: 'Roboto', sans-serif;
+} 
+.container{
+	width: 1100px;
+	background-color: #ee9090;
+}
+
+.card{
+
+	background-color: #ebe7e7;
+	border:none;
+	border-radius: 20px;
+	width: 300px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.image-container{
+
+	position: relative;
+	background-color: #ed5f5f;
+}
+
+.thumbnail-image{
+	border-radius: 10px !important;
+}
+
+.discount{
+
+	background-color: red;
+	padding-top: 1px;
+	padding-bottom: 1px;
+	padding-left: 4px;
+	padding-right: 4px;
+	font-size: 13px;
+	border-radius: 6px;
+	color: #fff;
+}
+
+.wishlist{
+
+	height: 25px;
+	width: 25px;
+	background-color: #eee;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 50%;
+	box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.first{
+
+	position: absolute;
+	width: 100%;
+	padding: 9px;
+	background-color: #FFCA28;
+}
+
+.product-detail-container{
+	background-color: #f0ebb4;
+	border-radius: 10px;
+	height: auto;
+}
+
+.name{
+	font-size: 15px;
+	font-weight: bold;
+	width: 75%;
+}
+
+
+.new-price{
+	font-size: 15px;
+	font-weight: bold;
+	color: rgb(234, 43, 10);
+	font-weight: bolder;
+	
+}
+.old-price{
+	font-size: 12px;
+	font-weight: bold;
+	color: rgb(100, 89, 89);
+	text-decoration: line-through;
+}
+
+.rating-number{
+	font-size: 13px;
+	color: rgb(10, 0, 0);
+	font-weight: 500;
+}
+
+.buy{
+	font-size: 14px;
+	font-weight: 500;
+}
+
+.viewDetails{
+	border-radius: 20px;
+	color: #050202;
+	padding: 2px;
+	background-color: #ee9090;
+	font-weight: bold;
+	width: 160px;
+}
+.viewDetails:hover{
+	background-color: green;
+	color: white;
+}
+
+h2{
+	color: rgb(97, 9, 9);
+	text-decoration: underline;
+	margin-top: 20px;
+	background-color: chocolate;
+	font-weight: bolder;
+}
+
+.petSymbol, .foodSymbol{
+	margin: 0;
+	font-size: 15px;
+}
+
+.checked{
+	color: orange;
+}
+
+
+
+
+
+
+
+

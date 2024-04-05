@@ -1,0 +1,40 @@
+
+<app-none-found [visible]="!food" notFoundMessage="Product Not Found!" resetLinkText="Back to HomePage"></app-none-found>
+
+<div *ngIf="food" class="container">
+    <div class="card">
+        <div class="container-fliud">
+            <div class="wrapper row">
+                <div class="preview col-md-6">
+
+                    <div class="preview-pic tab-content">
+                        <div><img [src]="food.imageUrl" [alt]="food.name" /></div>
+                    </div>
+                </div>
+                <div class="details col-md-6">
+                    <h3 class="product-title">{{food.name}}</h3>
+                    <div class="rating">
+                        <div>
+                            <span class="fa fa-star checked"></span>
+                            <span class="rating-number">{{food.stars}} Ratings </span>
+                        </div>
+                    </div>
+
+                    <p class="product-description">"{{food.description}}"</p>
+                    <p class="pet">Exclusively for your {{food.petType}} 💙 {{food.petSymbol}}</p>
+                    <p class="foodSymbol">Ingredients include: {{food.foodSymbol}}</p>
+                    <p class="tags">Tags: [{{food.tags}}]</p>
+
+                    <h4 class="ActualPrice">Actual Price: <span>${{food.oldPrice}}</span></h4>
+                    <h4 class="OurPrice">Our Price: <span>${{food.newPrice}}</span></h4>
+                    <h4 class="Discount"><span>(${{food.discount}} OFF!!!😍)</span></h4>
+
+                    <div class="action">
+                        <button class="add-to-cart btn btn-default" type="button" (click)="addToCart()">add to cart</button>
+                        <button class="like btn btn-default" type="button"><span class="fa fa-heart"></span></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

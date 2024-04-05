@@ -1,0 +1,21 @@
+
+*{
+    font-family: 'Poppins', sans-serif;
+}
+h2{
+    text-align: center;
+    font-weight: bold;
+    color: rgb(114, 21, 21);
+    text-decoration: underline;
+    margin: 20px;
+}
+p{
+    margin-left: 200px;
+    margin-right: 200px;
+    text-align: center;
+    color: rgb(114, 21, 21);
+}
+.firstPara{
+    margin-top: 50px;
+    font-weight: bold;
+}
